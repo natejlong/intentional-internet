@@ -1,0 +1,85 @@
+! Title: Intentional Internet Filter List
+! Description: Filters designed to protect your intention as you use the
+internet
+! Expires: 4 days
+! Last modified: %timestamp%
+! Homepage: https://github.com/natejlong/intentional-internet
+! Licence: https://github.com/natejlong/intentional-internet/blob/master/LICENSE
+!
+! GitHub issues: https://github.com/natejlong/intentional-internet/issues
+! GitHub pull requests: https://github.com/natejlong/intentional-internet/pulls
+!-------------------------------------------------------------------------------
+
+!--
+! YouTube
+!--
+! Related videos
+www.youtube.com###related
+
+! Comments section
+www.youtube.com###comments
+
+! Homepage gallery of suggestions
+www.youtube.com##[role="main"] [page-subtype="home"]
+
+
+
+!--
+! StackExchange Network
+!--
+! Related Posts
+stackexchange.com,stackoverflow.com,askubuntu.com##.sidebar-related.module
+
+! Trending Posts
+stackexchange.com,stackoverflow.com,askubuntu.com###hot-network-questions
+
+! Misc. Blog posts/Meta discussions 
+stackexchange.com,stackoverflow.com,askubuntu.com##ul:has-text(The Overflow Blog):upward(1)
+
+! Linked Posts
+stackexchange.com,stackoverflow.com,askubuntu.com##.sidebar-linked.module
+
+
+
+!--
+! Reddit
+!--
+www.reddit.com###TrendingPostsContainer
+www.reddit.com##:xpath(//div[contains(text(), "More posts you may like")]):upward(1)
+www.reddit.com##h2:has-text(Similar to this post):upward(6)
+
+
+
+!--
+! Amazon
+!--
+! Desktop-only: homepage gallery of suggestions 
+www.amazon.com##[id="pageContent"]
+
+! Carousels of recommendations/suggestions
+www.amazon.com##[aria-label="Your recently viewed items and featured recommendations"]
+
+
+
+!--
+! Twitter
+!-- 
+twitter.com##[aria-label="Who to follow"]
+twitter.com##[aria-label="Timeline: Trending now"]
+
+
+
+!--
+! Quora
+!--
+www.quora.com###mainContent > div > div:has-text(Related questions)
+www.quora.com##.dom_annotate_related_questions
+
+
+
+!--
+! LinkedIn
+!--
+www.linkedin.com##.news-module
+www.linkedin.com##.pv-course-recommendations
+www.linkedin.com##.pv-profile-pymk__container
