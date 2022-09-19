@@ -68,7 +68,8 @@ twitter.com##[aria-label="Who to follow"]
 twitter.com##[aria-label="Timeline: Trending now"]
 
 ! "Explore" link
-twitter.com##[aria-label="Search and explore"]
+! TODO this is the only way to access search on mobile site
+!twitter.com##[aria-label="Search and explore"]
 
 ! Recommendations: Topics to follow + contents
 ! TODO The position-based blocks are brittler than I would like, but this works for now.
