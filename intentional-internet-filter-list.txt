@@ -28,16 +28,16 @@ www.youtube.com##[role="main"] [page-subtype="home"]
 ! StackExchange Network
 !--
 ! Related Posts
-stackexchange.com,stackoverflow.com,askubuntu.com##.sidebar-related.module
+stackexchange.com,stackoverflow.com,askubuntu.com,superuser.com##.sidebar-related.module
 
 ! Trending Posts
-stackexchange.com,stackoverflow.com,askubuntu.com###hot-network-questions
+stackexchange.com,stackoverflow.com,askubuntu.com,superuser.com###hot-network-questions
 
 ! Misc. Blog posts/Meta discussions 
 stackexchange.com,stackoverflow.com,askubuntu.com##ul:has-text(The Overflow Blog):upward(1)
 
 ! Linked Posts
-stackexchange.com,stackoverflow.com,askubuntu.com##.sidebar-linked.module
+stackexchange.com,stackoverflow.com,askubuntu.com,superuser.com##.sidebar-linked.module
 
 
 
